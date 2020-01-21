@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-void print(const std::vector<double> &vector){
+void print( std::vector<double> &vector){
     for(auto element: vector){
         std::cout << element << " ";}
     std::cout << std::endl;}
